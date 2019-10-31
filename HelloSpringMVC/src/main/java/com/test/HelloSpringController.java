@@ -14,7 +14,7 @@ public class HelloSpringController {
     //µÇÂ¼
     @RequestMapping("/login")
     public String showMessage() {
- 
+        System.out.println("this is a simple update");
        
         return "login";
     }
