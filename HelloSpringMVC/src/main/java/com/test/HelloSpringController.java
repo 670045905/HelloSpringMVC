@@ -16,6 +16,7 @@ public class HelloSpringController {
     public String showMessage() {
         System.out.println("this is a simple update");
         System.out.println("第一次创建分支");
+        System.out.println("创建分支并在分支上开发");
        
         return "login";
     }
