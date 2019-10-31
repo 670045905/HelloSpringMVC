@@ -15,6 +15,7 @@ public class HelloSpringController {
     @RequestMapping("/login")
     public String showMessage() {
         System.out.println("this is a simple update");
+        System.out.println("第一次创建分支");
        
         return "login";
     }
